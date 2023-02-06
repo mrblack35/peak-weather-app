@@ -1,0 +1,223 @@
+*, ::after, ::before {-webkit-box-sizing: inherit;box-sizing: inherit;}
+
+html, body {height: 100%;}
+
+html {-webkit-box-sizing: border-box;box-sizing: border-box;}
+
+img {max-width: 100%; height: auto; display: block;}
+
+ul {list-style-type: none; margin: 0; padding: 0;}
+
+.page {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.main-wrapper {
+    max-width: 1600px;
+    margin: 4rem auto;
+    padding: 2rem;
+}
+
+h1, h2 {
+    margin: 0 0 1.5rem 0;
+}
+
+.repContainer > h3 {
+    margin: 0;
+}
+
+.form-wrapper {
+    display: flex;
+    align-items: flex-end;
+    width: fit-content;
+    height: auto;
+    padding: 1rem;
+    border-color: rgb(140, 140, 140);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+form {
+    margin-right: 1rem;
+    font-size: .9rem;
+}
+
+.mName-btn {
+    /* all: unset; */
+    cursor: pointer;
+    height: fit-content;
+    background-color: white;
+   /*  background-image: radial-gradient(100% 100% at 100% 0, #eef9fb 0, #c8c8c8 100%); */
+    /* background-image: radial-gradient(100% 100% at 100% 0, #d7fbdc 0, #83cd89 100%); */
+    /* color: #fff; */
+    padding: .44rem 1rem;
+    border-color: rgb(140, 140, 140);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.mName-btn:hover {
+    /* background-image: radial-gradient(100% 100% at 100% 0, #cceed1 0, #75bb7a 100%); */
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+/*a {text-decoration: none; color: inherit; display: inline-block;}*/
+
+select {
+    /* appearance: none; */
+    display: block;
+    background-color: white;
+    /* background-image: radial-gradient(100% 100% at 100% 0, #d7fbdc 0, #83cd89 100%); */
+    font-family: inherit;
+    /* padding: 1rem; */
+    width: 9.5rem;
+    height: 2rem;
+    margin-top: .6rem;
+    border-color: rgb(140, 140, 140);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.output {
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-template-rows: 100%;
+    /* max-width: 1600px; */
+    /* min-width: calc(748px + 2.3rem); */
+    min-width: 850px;
+    /* width: calc(100vw +10rem); */
+    /* align-items: baseline; */
+    /* column-gap: 1rem; */
+    /* margin: 0 auto; */
+}
+
+.mountImg {
+    width: 100%;
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
+.credit {
+    font-size: .8rem;
+    margin-top: .5rem;
+    grid-column: 1 / -2;
+    grid-row: 2;
+}
+
+.credit a {
+    outline: none;
+    text-decoration: none;
+}
+
+.credit a:link {
+    color: #2d64fc;
+}
+
+.credit a:visited {
+    color: #c89209;
+}
+
+.credit a:hover {
+    border-bottom: 1px solid;
+}
+
+.loc {
+    grid-column: 1 / -2;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    margin-top: .7rem;
+    font-size: .9rem;
+}
+
+.loc span:first-child {
+    margin-bottom: .6rem;
+}
+
+.repContainer {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: .3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 10% 88%;
+    column-gap: 1rem;
+    row-gap: .6rem;
+    width: 24rem;
+    height: max-content;
+    justify-self: start;
+    /* align-self: flex-end; */
+    padding: 1rem;
+    margin: 1.5rem;
+/*     border-color: rgb(140, 140, 140);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px; */
+}
+
+.report {
+    grid-row: 2;
+    font-size: .8rem;
+}
+
+.report > h5 {
+    margin: 0 0 .5rem 0;
+    font-size: .9rem;
+    color: rgb(45, 45, 45);
+    font-weight: 500;
+}
+
+.date {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    font-weight: 500;
+}
+
+.we-icon {
+    max-width: 5.5rem;
+}
+
+.windDirect {
+    padding: 0 5px 0 5px;
+    display: inline-block;
+}
+
+.high, .low {
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+.low {
+    color: rgb(50, 50, 50);
+    padding-left: .2rem;
+}
+
+/* .high > span > sup {
+    font-size: 1em;
+} */
+
+.tempContainer {
+    display: flex;
+    align-items: baseline;
+}
+
+/* .low > span > sup {
+    font-size: 1em;
+} */
+
+/* .windChill > span > sup {
+    font-size: 1em;
+} */
+
+/* .tempFall > span:nth-child(1) {
+    font-size: 2rem;
+} */

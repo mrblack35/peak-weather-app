@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <title>Peak Weather app</title>
+</head>
+<body class="page">
+    <main class="main-wrapper">
+        <h1>Peak Weather app</h1>
+        <div class="form-wrapper">
+            <form action="">
+                Select mountain:
+                <select name="peaks" id="mName">
+                    <!-- <option value="13531">Cross Fell</option> -->
+                    <option value="16831">Helvellyn</option>
+                    <!-- <option value="16886">Skiddaw</option> -->
+                    <option value="22048">Ben Nevis</option>
+                    <!-- <option value="21959">Ben Alder</option> -->
+                    <option value="16973">Scafell Pike</option>
+                    <option value="21886">The Storr</option>
+                    <!-- <option value="17427">Carnedd Llewelyn</option> -->
+                    <option value="17488">Glyder Fawr</option>
+                    <option value="17530">Snowdon</option>
+                </select>
+            </form>
+            <form action="">
+                Select temperature unit:
+                <select name="temp-format" id="temp">
+                    <option value="C">Celsius</option>
+                    <option value="F">Fahrenheit</option>
+                </select>
+            </form>
+            <button class="mName-btn">Submit</button>
+        </div>
+        <h2 id="date"></h2>
+        <div class="output"></div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

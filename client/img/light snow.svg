@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Light-snow" serif:id="Light snow" transform="matrix(0.852685,0,0,0.852685,-5.80556,-1.90477)">
+        <g id="Snowflake" transform="matrix(1,0,0,1,-63.5844,387.942)">
+            <path d="M290,110L350,110" style="fill:none;stroke:black;stroke-width:21.11px;"/>
+            <g transform="matrix(0.5,0.866025,-0.866025,0.5,255.263,-222.128)">
+                <path d="M290,110L350,110" style="fill:none;stroke:black;stroke-width:21.11px;"/>
+            </g>
+            <g transform="matrix(-0.5,0.866025,-0.866025,-0.5,575.263,-112.128)">
+                <path d="M290,110L350,110" style="fill:none;stroke:black;stroke-width:21.11px;"/>
+            </g>
+        </g>
+        <g id="Snowflake1" serif:id="Snowflake" transform="matrix(1,0,0,1,-0.418721,335.981)">
+            <path d="M290,110L350,110" style="fill:none;stroke:black;stroke-width:21.11px;"/>
+            <g transform="matrix(0.5,0.866025,-0.866025,0.5,255.263,-222.128)">
+                <path d="M290,110L350,110" style="fill:none;stroke:black;stroke-width:21.11px;"/>
+            </g>
+            <g transform="matrix(-0.5,0.866025,-0.866025,-0.5,575.263,-112.128)">
+                <path d="M290,110L350,110" style="fill:none;stroke:black;stroke-width:21.11px;"/>
+            </g>
+        </g>
+        <g id="Cloud" transform="matrix(1.26316,0,0,1.26316,-210.316,-216.316)">
+            <path d="M362.742,352.533C376.194,323.308 405.744,303 440,303C480.767,303 514.87,331.762 523.106,370.087C552.017,371.697 575,395.686 575,425C575,455.355 550.355,480 520,480L280,480L280,479.956C279.338,479.985 278.671,480 278,480C253.164,480 233,459.836 233,435C233,410.164 253.164,390 278,390C284.912,390 291.462,391.562 297.316,394.351C300.126,369.411 321.314,350 347,350C352.5,350 357.793,350.89 362.742,352.533Z" style="fill:none;stroke:black;stroke-width:16.71px;"/>
+        </g>
+    </g>
+</svg>
