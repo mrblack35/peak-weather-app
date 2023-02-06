@@ -1,2 +1,2 @@
 # peak-weather-app
- Concept Project Peak Weather app
+Concept project peak weather app
